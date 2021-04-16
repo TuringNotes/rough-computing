@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Introduction to Rough Sets</title>
+    <link rel="stylesheet" href="../styles/style.min.css">
+    <script src="../js/includeParts.js" defer></script>
+
+    <style>
+        .contents {
+            font-family: 'Monospace';
+            line-height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="article">
+        <div class="metadata">
+            <div class="heading">
+                An introduction to rough sets.
+                <div class="caption">A rough overview!</div>
+            </div>
+            <div class="author">
+                <div class="pic"></div>
+                <div class="name">Brahmani K</div>
+                <div class="links">
+                    <div class="github"><a href="https://github.com/nbrahmani"></a></div>
+                    <div class="linkedin"><a href="#"></a></div>
+                </div>
+            </div>
+            <p>In computer science, a rough set, first described by Polish computer scientist Zdzisław I. Pawlak, is a
+                formal approximation of a crisp set (i.e., conventional set) in terms of a pair of sets which give the
+                lower and the upper approximation of the original set. In the standard version of rough set theory
+                (Pawlak 1991), the lower- and upper-approximation sets are crisp sets, but in other variations, the
+                approximating sets may be fuzzy sets.
+            </p>
+        </div>
+        <div class="contents">
+            <div class="section">
+                Consider the following knowledge base:
+                <div class="image">
+                    <img src="./table.png" alt="Knowledge base">
+                </div>
+                <p>
+                    Let U = {O1, O2, O3, O4, O5} be the universal set of the objects.
+                    <br />Any set X ⊆ U is called a concept.
+                    ‘Attribute-1’ induces a relation R on U thus dividing it into two concepts C1 = {O1, O2, O4} and C2
+                    =
+                    {O3, O5}. These concepts C1 and C2 are clearly explainable by the knowledge using ‘Attribute-1’. Now
+                    consider a concept C = {O1, O4} which can not be explained by the knowledge. Hence, we try to see if
+                    we
+                    can approximately explain the concepts using Rough sets.
+                </p>
+                <p>
+                    Now, the concept C = {O1, O4} can not be explained by the knowledge. To explain the concept, we
+                    define lower and upper approximations to the concept. The lower approximation contains the elements
+                    that can be classified with complete certainty as the members of C. The upper approximation includes
+                    the elements that can be classified as the members of C with any certainty. Any concept whose lower
+                    and upper approximations are equal is called an R-definable concept. In the following article, we’ll
+                    look into some basic topics from Discrete Mathematics that are essential for Rough sets.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
